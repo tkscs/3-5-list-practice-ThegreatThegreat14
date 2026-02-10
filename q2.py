@@ -17,4 +17,5 @@ The Management
 """
 
 for cat in cats:
-  print(f"Dear {cat}," + form_letter)
+    new_letter = f"Dear {cat}" + form_letter
+    print(new_letter)
